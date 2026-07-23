@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TheCaptainCompany/.github/main/profile/assets/thecaptaincompany-logo.jpg" alt="TheCaptainCompany — a mustachioed naval-captain skull with an anchor cap, over a golden compass rose" width="190">
+<img src="https://raw.githubusercontent.com/TheCaptainCompany/.github/main/profile/assets/thecaptaincompany-logo.jpg" alt="THE CAPTAIN COMPANY — a mustachioed naval-captain skull with an anchor cap, over a golden compass rose" width="190">
 
-# TheCaptainCompany
+# THE CAPTAIN COMPANY
 
 **We build software in the open — and we build it to last.**
 

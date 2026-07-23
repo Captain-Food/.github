@@ -1,8 +1,13 @@
 # thecaptaincompany.com — Landing page brief
 
-> Living source of truth for the TheCaptainCompany marketing site
+> Living source of truth for THE CAPTAIN COMPANY marketing site
 > (repo `thecaptaincompany.github.io`). Owned by the product owner; drafted with
 > "Neuro" (neuromarketing/conversion). Update this doc as decisions are made.
+
+> **Brand name:** the display/brand name is **THE CAPTAIN COMPANY** (three words).
+> `TheCaptainCompany` is only the GitHub org handle inside URLs and repo paths —
+> never use it as the visible brand name in copy. (Wordmark casing — all-caps vs
+> "The Captain Company" — to confirm.)
 
 - **Status:** discovery — Round 1 locked, Round 2 open
 - **Last updated:** 2026-07-23
@@ -12,7 +17,7 @@
 
 ## The fleet (context)
 
-TheCaptainCompany (parent) builds a spec-driven software factory and the products on top of it:
+THE CAPTAIN COMPANY (parent) builds a spec-driven software factory and the products on top of it:
 
 | Repo | What it is | Public surface |
 | --- | --- | --- |
@@ -45,7 +50,7 @@ is delegated out to `join.captain.food`.
 Legend: ✅ = proposed default, I'll proceed unless told otherwise · 🔴 = need from product owner (I won't invent facts).
 
 ### A. Design & build
-- ✅ **Reuse** the `captain-food.github.io` stack & design system: vanilla HTML/CSS/JS, `styles.css`, `partials.js`, navy `#0e3a5f` + gold palette, same fonts — adapted with the TheCaptainCompany logo. Fast, consistent, on-brand.
+- ✅ **Reuse** the `captain-food.github.io` stack & design system: vanilla HTML/CSS/JS, `styles.css`, `partials.js`, navy `#0e3a5f` + gold palette, same fonts — adapted with THE CAPTAIN COMPANY logo. Fast, consistent, on-brand.
 - ✅ **Scope:** one-page landing now; add minimal legal pages (`mentions-legales`, `confidentialite`) only once the legal entity facts exist.
 - 🔴 **Logo on dark mode:** current asset is a white-background JPEG (shows a white box on dark). A transparent PNG/SVG would fix it.
 
@@ -60,8 +65,8 @@ For each of Captain.Food, captain-engine, captain-studio:
 
 ### C. Company mission statement (company-level, not product-level)
 🔴 Approve / edit these drafts, and confirm the cooperative status:
-- **EN (draft):** "TheCaptainCompany is a cooperative software company. We build open, spec-driven tools that give independents back control from extractive platforms — starting with Captain.Food, 0% commission food ordering for local restaurants. Everything we make is open source, built to last, and meant to become a digital commons."
-- **FR (draft):** "TheCaptainCompany est une entreprise coopérative du logiciel. Nous construisons des outils ouverts, pilotés par la spécification, qui rendent aux indépendants le contrôle repris par les plateformes extractives — à commencer par Captain.Food, la commande en ligne à 0 % de commission pour les restaurants locaux. Tout ce que nous faisons est open source, durable, et destiné à devenir un bien commun numérique."
+- **EN (draft):** "THE CAPTAIN COMPANY is a cooperative software company. We build open, spec-driven tools that give independents back control from extractive platforms — starting with Captain.Food, 0% commission food ordering for local restaurants. Everything we make is open source, built to last, and meant to become a digital commons."
+- **FR (draft):** "THE CAPTAIN COMPANY est une entreprise coopérative du logiciel. Nous construisons des outils ouverts, pilotés par la spécification, qui rendent aux indépendants le contrôle repris par les plateformes extractives — à commencer par Captain.Food, la commande en ligne à 0 % de commission pour les restaurants locaux. Tout ce que nous faisons est open source, durable, et destiné à devenir un bien commun numérique."
 - 🔴 **Cooperative/ESUS/SCIC status:** already legally established, or still a *cap* (ambition)? Captain.Food materials phrase it as an ambition — I will not claim a legal status you don't hold.
 
 ### D. Conversion actions / contact channels (🔴 need real values — won't invent)
@@ -83,3 +88,4 @@ For each of Captain.Food, captain-engine, captain-studio:
 
 ## Decisions log
 - 2026-07-23 — Round 1 strategy locked (see table above).
+- 2026-07-23 — Brand name is **THE CAPTAIN COMPANY** (display); `TheCaptainCompany` is the GitHub handle only. Wordmark casing to confirm.

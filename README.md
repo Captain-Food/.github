@@ -1,1 +1,1 @@
-This repository holds the TheCaptainCompany organization profile — see [`profile/README.md`](profile/README.md), which renders at [github.com/TheCaptainCompany](https://github.com/TheCaptainCompany).
+This repository holds the organization profile for **THE CAPTAIN COMPANY** — see [`profile/README.md`](profile/README.md), which renders at [github.com/TheCaptainCompany](https://github.com/TheCaptainCompany).
