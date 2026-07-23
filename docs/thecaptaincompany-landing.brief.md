@@ -8,7 +8,7 @@
 > all-caps wordmark). `TheCaptainCompany` is only the GitHub org handle inside URLs
 > and repo paths — never the visible brand name in copy.
 
-- **Status:** Round 1 locked · brand system locked · Round 2 resolved — **ready to build** (one gap: WhatsApp link).
+- **Status:** ✅ **BUILT & pushed** to `TheCaptainCompany/thecaptaincompany.github.io` (`main`). Pending: WhatsApp link + DNS/Pages config.
 - **Last updated:** 2026-07-23
 - **Target site:** `thecaptaincompany.com` (repo `TheCaptainCompany/thecaptaincompany.github.io`)
 
@@ -142,3 +142,4 @@ first-class.
 - 2026-07-23 — Brand system locked from the brand guide (palette black+gold, type, components, dark mode, logo usage). Sheets saved to `docs/assets/brand/`.
 - 2026-07-23 — Status: **Caring Hope Foundation initiative**, not yet incorporated; **not a cooperative** (removed all coop/ESUS/SCIC framing).
 - 2026-07-23 — Round 2 resolved: products (Food live, engine/studio coming-soon); fonts (Space Grotesk + Montserrat, no Apparat); email `contact@thecaptaincompany.com` + GitHub + WhatsApp; legal = Caring Hope Foundation (RNA W372020229); domain `thecaptaincompany.com`. One gap: WhatsApp link.
+- 2026-07-23 — **Site built and pushed** to `thecaptaincompany.github.io` `main` (bilingual FR/EN, light+dark, black+gold). Verified desktop + mobile renders. Logo assets cropped from the brand guide into `assets/brand/`. Remaining: set WhatsApp link in `partials.js`; owner to configure DNS + `www`→bare and enable Pages custom domain + Enforce HTTPS.
