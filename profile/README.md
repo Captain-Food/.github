@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/TheCaptainCompany/captain-food/main/.github/assets/logo.png" alt="Captain.Food — a mustachioed chef-hatted skull over a crossed golden fork and knife, on a white card" width="190">
+<img src="https://raw.githubusercontent.com/TheCaptainCompany/.github/main/profile/assets/thecaptaincompany-logo.jpg" alt="TheCaptainCompany — a mustachioed naval-captain skull with an anchor cap, over a golden compass rose" width="190">
 
 # Captain.Food
 
