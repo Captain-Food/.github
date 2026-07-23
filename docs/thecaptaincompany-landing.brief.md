@@ -8,7 +8,7 @@
 > all-caps wordmark). `TheCaptainCompany` is only the GitHub org handle inside URLs
 > and repo paths — never the visible brand name in copy.
 
-- **Status:** discovery — Round 1 locked · brand system locked · remaining facts open
+- **Status:** Round 1 locked · brand system locked · Round 2 resolved — **ready to build** (one gap: WhatsApp link).
 - **Last updated:** 2026-07-23
 - **Target site:** `thecaptaincompany.com` (repo `TheCaptainCompany/thecaptaincompany.github.io`)
 
@@ -17,13 +17,14 @@
 ## Legal / operating status (IMPORTANT — honesty in copy)
 
 THE CAPTAIN COMPANY **does not exist as a company yet**. It is currently an **initiative of the
-Caring Hope Foundation** (the same setup as Captain.Food), running under the Foundation until it
-becomes self-sustaining. **It is not a cooperative** — do not describe it as one, or use
-ESUS / SCIC / social-and-solidarity-economy language for it. The only status to state is:
-a Caring Hope Foundation initiative.
+Caring Hope Foundation** (same setup as Captain.Food), running under the Foundation until it becomes
+self-sustaining. **It is not a cooperative** — do not describe it as one, or use ESUS / SCIC /
+social-and-solidarity-economy language for it. The only status to state is: a Caring Hope Foundation
+initiative.
 
-- Public framing: "a Caring Hope Foundation initiative" — a credible, transparent backing signal.
-- 🔴 Need: Caring Hope Foundation legal name, link, and the exact line/logo they want in the footer.
+**Éditeur (from Captain.Food's mentions-légales — same entity):** Association **Caring Hope
+Foundation**, loi 1901, déclarée à Tours, **RNA W372020229**; siège Tours (Centre-Val de Loire),
+France; directeur de publication = le·la représentant·e légal·e. Host: GitHub Pages.
 
 ---
 
@@ -33,9 +34,9 @@ THE CAPTAIN COMPANY (parent) builds a spec-driven software factory and the produ
 
 | Repo | What it is | Public surface |
 | --- | --- | --- |
-| `captain-studio` | UI to administer the specs | _TBD_ |
-| `captain-engine` | Spec templates, codegen & framework ("how we build") | _TBD_ |
-| `captain-food` | The flagship platform | `live.` / `restos.` / `riders.` / `{slug}.captain.food` |
+| `captain-studio` | UI to administer the specs | internal for now → **coming soon** |
+| `captain-engine` | Spec templates, codegen & framework ("how we build") | internal for now → **coming soon** |
+| `captain-food` | The flagship platform (in progress) | `live.` / `restos.` / `riders.` / `{slug}.captain.food` |
 | `captain-food.github.io` | Captain.Food marketing site | `join.captain.food` |
 | `thecaptaincompany.github.io` | **This** — the company marketing site | `thecaptaincompany.com` |
 
@@ -50,76 +51,64 @@ THE CAPTAIN COMPANY (parent) builds a spec-driven software factory and the produ
 | **Narrative** | **Mission-led** — a Caring Hope Foundation initiative building open, spec-driven tools against extractive platforms. (Not a cooperative.) |
 | **Language** | **Bilingual FR + EN** (toggle). |
 
-**Implication:** hero + primary CTA speak to crew/builders ("come build with us / see how we
-build"); the mission frames the whole page; Captain.Food is presented as living **proof**, not as
-the pitch; clear secondary paths for partners/funders; restaurateur conversion is delegated out to
-`join.captain.food`.
+**Implication:** hero + primary CTA speak to crew/builders; the mission frames the whole page;
+Captain.Food is living **proof**, not the pitch; restaurateur conversion is delegated to `join.captain.food`.
 
 ---
 
 ## Brand system (LOCKED — from the brand guide)
 
-Reference sheets saved in-repo:
+Reference sheets in-repo:
 [`assets/brand/brand-logo-lockup.jpg`](assets/brand/brand-logo-lockup.jpg) ·
 [`assets/brand/brand-style-guide.jpg`](assets/brand/brand-style-guide.jpg)
 
-**Palette** (this is the company's OWN identity — black + gold, **not** Captain.Food's navy):
+**Palette** (the company's OWN identity — black + gold, **not** Captain.Food's navy):
 
 | Token | Hex | Use |
 | --- | --- | --- |
-| Black | `#000000` | text, primary surfaces, reversed logo bg |
+| Black | `#000000` | text, primary/dark surfaces, reversed logo bg |
 | Warm Gold | `#D4AF37` | brand accent, primary buttons, highlights |
 | White | `#FFFFFF` | light surfaces |
 | Soft Off-White | `#F8F8F8` | light section backgrounds |
 
 **Typography**
-- **Display / headings:** Apparat. **Body / UI:** Montserrat.
 - Scale: H1 72px Bold · H2 40px SemiBold · H3 24px SemiBold · Body 16px Regular · Caption 12px Regular.
-- 🔴 **Font licensing:** Apparat is a commercial font (Positype). For a public web build I need either a
-  licensed webfont kit, or approval to substitute a close free geometric display face (candidates:
-  Michroma / Chakra Petch / Saira / Oxanium) for headings. Montserrat is free (Google Fonts).
+- ✅ **Fonts:** no Apparat licence → substitute a free geometric display face. **Space Grotesk** for
+  display/headings + **Montserrat** for body/UI (both free, Google Fonts). The wordmark is rendered from
+  the logo asset, not live text.
 
-**Voice / tagline** — nautical-leadership tone. Brand-guide samples ("LEAD THE WAY. OWN THE HORIZON.",
-"LEAD WITH PURPOSE. NAVIGATE THE FUTURE.", "Navigate with clarity. Lead with honor.") are **tone
-references only** — they're generic; final copy will marry this voice to the real mission and the
-crew/builder audience. Likewise the brand sheet's sample cards ("Premium Yacht Systems", "Smart
-Navigation Suite") are **placeholder** — ignore for content.
+**Voice** — nautical-leadership tone. Brand-guide sample taglines & cards ("Premium Yacht Systems" etc.)
+are generic placeholders → **tone reference only**, not content.
 
-**Components** (defined in the guide, to mirror in CSS): primary (gold-filled) / secondary (outline) /
-tertiary (text) buttons with hover+focus; form fields (default/focus/error/select/checkbox); card
-components (featured / dark / trust); spacing scale on a **4px base** (4/8/16/24/32/48/64/96).
+**Components:** primary (gold-filled) / secondary (outline) / tertiary (text) buttons w/ hover+focus;
+form fields (default/focus/error/select/checkbox); cards (featured/dark/trust); **4px spacing base**
+(4/8/16/24/32/48/64/96). **Icons:** nautical · bold · clean · geometric.
 
-**Icon direction:** nautical · bold · clean · geometric; consistent stroke weight, rounded corners.
-
-**Logo usage:** primary (full colour) · mark only · horizontal lockup (light bg) · **reversed (dark
-bg)** · gold (premium) · social avatar · favicon · app icon. Dark mode is a first-class case.
-- 🔴 Need the **individual logo/icon files** (SVG or transparent PNG) — the reversed-on-dark, gold, mark,
-  favicon and app-icon variants — extracted from the sheets, so the site (and dark mode) render cleanly.
+**Logo usage:** primary · mark · reversed-on-dark · gold · social avatar · favicon · app icon. Dark mode
+first-class.
+- ✅ Individual files not available → **crop usable raster assets from the brand sheets**: light lockup
+  (header/light), reversed lockup (dark sections/footer), mark, favicon, app icon. Transparent SVG/PNG can
+  swap in later with no markup change.
 
 ---
 
-## Round 2 — details
+## Round 2 — details (RESOLVED)
 
-Legend: ✅ = resolved / proposed default · 🔴 = still need from product owner.
+### A. Design & build ✅
+- Reuse `captain-food.github.io`'s static stack (vanilla HTML/CSS/JS, `partials.js` pattern, GitHub Pages),
+  but apply THE CAPTAIN COMPANY's own black+gold palette + typography.
+- One-page bilingual landing now; legal pages mirrored from Captain.Food. Dark mode first-class.
+- **Structure:** hero (mission one-liner + primary CTA) → "how we build" → **product cards** (Food / engine / studio)
+  → mission + Caring Hope Foundation backing → CTAs per audience → footer.
 
-### A. Design & build
-- ✅ **Stack:** reuse `captain-food.github.io`'s approach — vanilla HTML/CSS/JS, `partials.js` pattern,
-  static GitHub Pages — but apply **THE CAPTAIN COMPANY's own** palette + typography above (not Captain.Food's navy).
-- ✅ **Scope:** one-page bilingual landing now; minimal legal pages once entity facts exist.
-- ✅ **Dark mode:** first-class (brand guide provides light/dark). Uses reversed logo on `#000000`.
-- ✅ **Structure:** hero (mission one-liner + primary CTA) → "how we build" → **product cards** (Food / engine / studio) → mission + Caring Hope Foundation backing → CTAs per audience → footer.
+### B. Product routing cards ✅
+- **Captain.Food** — the one real product (in progress) → links to `join.captain.food`.
+  One-liner: "0% commission food ordering for local restaurants — pilot in Tours."
+- **captain-engine** & **captain-studio** — **coming soon** (internal for now), teaser cards, **no external link**.
+  - captain-engine: "The spec-driven engine we build on: one source of truth, everything generated."
+  - captain-studio: "Author and administer the specs, visually."
 
-### B. Product routing cards (core of the umbrella hub)
-For each of Captain.Food, captain-engine, captain-studio:
-- 🔴 **Public status** — live / in development / private / coming soon?
-- 🔴 **URL to link** — Captain.Food → `join.captain.food`; engine/studio → own site, GitHub repo, or nothing yet?
-- ✅ **One-liner** — drafts to approve:
-  - **Captain.Food** — "0% commission food ordering for local restaurants — live pilot in Tours." → `join.captain.food`
-  - **captain-engine** — "The spec-driven engine we build on: one source of truth, everything generated."
-  - **captain-studio** — "Author and administer the specs, visually."
-
-### C. Mission statement (company-level)
-🔴 Approve / edit — drafts updated for the Foundation status:
+### C. Mission statement ✅ (adopted unless edited)
 - **EN:** "THE CAPTAIN COMPANY is a Caring Hope Foundation initiative building open, spec-driven software
   that gives independents back control from extractive platforms — starting with Captain.Food, 0%
   commission food ordering for local restaurants. Everything we make is open source and built to last."
@@ -128,26 +117,28 @@ For each of Captain.Food, captain-engine, captain-studio:
   extractives — à commencer par Captain.Food, la commande en ligne à 0 % de commission pour les
   restaurants locaux. Tout ce que nous faisons est open source et conçu pour durer."
 
-### D. Conversion actions / contact channels (🔴 real values — won't invent)
-- **Crew/talent:** email (`hello@` / `jobs@thecaptaincompany.com`?) or page? any open roles?
-- **Builders:** link GitHub org `github.com/TheCaptainCompany`? newsletter/waitlist for the engine?
-- **Investors/public sector:** contact email? Open Collective / transparency link?
-- **General:** primary contact email + socials (LinkedIn / X / Mastodon / …).
+### D. Contact channels ✅
+- **Primary email:** `contact@thecaptaincompany.com` (all audiences).
+- **Builders:** link the GitHub org `github.com/TheCaptainCompany` ("explore the code").
+- **Personal:** a **WhatsApp** CTA — "connect with me on WhatsApp".
+  - 🔴 **Need the WhatsApp link/number** (`wa.me/…`). Building with a clearly-marked placeholder until provided.
+- No other company socials for now (Instagram/LinkedIn/etc. belong to Captain.Food).
 
-### E. Footer & legal identity (🔴)
-- Caring Hope Foundation legal name + link + the footer attribution/logo they want.
-- Name founder/team on the page, or stay collective?
-- Open Collective / public-accounts link (radical transparency, per the Captain.Food ethos).
+### E. Footer & legal ✅ (same as Captain.Food)
+- Éditeur = Association Caring Hope Foundation (see status section). Host = GitHub Pages. Contact = `contact@thecaptaincompany.com`.
+- Mirror `mentions-legales` + `confidentialite` from `captain-food.github.io`, re-branded.
+- Footer bottom: "© 2026 THE CAPTAIN COMPANY — a Caring Hope Foundation initiative."
 
-### F. Domain & repo (🔴)
-- Confirm `thecaptaincompany.com` (+ `www`?). DNS configured, or just drop the `CNAME` file for you to point?
-- Confirm repo is exactly `TheCaptainCompany/thecaptaincompany.github.io` and empty/new (I'll add it to the session when we build).
+### F. Domain & repo ✅
+- Custom domain **`thecaptaincompany.com`** (bare). `CNAME` file = `thecaptaincompany.com`.
+- Product owner configures DNS + **`www` → bare** redirect; enable "Enforce HTTPS" once DNS resolves.
+- Repo: `TheCaptainCompany/thecaptaincompany.github.io`.
 
 ---
 
 ## Decisions log
 - 2026-07-23 — Round 1 strategy locked (goal / audience / narrative / language).
 - 2026-07-23 — Brand name = **THE CAPTAIN COMPANY** (display, all-caps wordmark); `TheCaptainCompany` = GitHub handle only.
-- 2026-07-23 — Brand system locked from the brand guide (palette black+gold, Apparat+Montserrat, components, dark mode, logo usage). Sheets saved to `docs/assets/brand/`.
-- 2026-07-23 — Status clarified: THE CAPTAIN COMPANY is a **Caring Hope Foundation initiative** (not yet incorporated). Copy must reflect this.
-- 2026-07-23 — Correction: **not a cooperative.** Removed all cooperative / ESUS / SCIC / SSE framing from the positioning and mission copy.
+- 2026-07-23 — Brand system locked from the brand guide (palette black+gold, type, components, dark mode, logo usage). Sheets saved to `docs/assets/brand/`.
+- 2026-07-23 — Status: **Caring Hope Foundation initiative**, not yet incorporated; **not a cooperative** (removed all coop/ESUS/SCIC framing).
+- 2026-07-23 — Round 2 resolved: products (Food live, engine/studio coming-soon); fonts (Space Grotesk + Montserrat, no Apparat); email `contact@thecaptaincompany.com` + GitHub + WhatsApp; legal = Caring Hope Foundation (RNA W372020229); domain `thecaptaincompany.com`. One gap: WhatsApp link.
