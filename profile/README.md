@@ -29,7 +29,7 @@ humans on the decisions that matter:
   and mobile.
 - **🧭 Decisions on the record** — every architectural call is written down as an ADR, and
   observability is a contract we test against, not an afterthought bolted on later.
-- **🌊 In the open** — public repos, a cooperative ethos, and Coopyleft licensing, so what
+- **🌊 In the open** — public repos, a mission-led ethos, and Coopyleft licensing, so what
   we make stays useful to the people who use it and can't be turned against them.
 
 ## What we're building

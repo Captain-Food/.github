@@ -18,8 +18,9 @@
 
 THE CAPTAIN COMPANY **does not exist as a company yet**. It is currently an **initiative of the
 Caring Hope Foundation** (the same setup as Captain.Food), running under the Foundation until it
-becomes self-sustaining. The **cooperative / ESUS / SCIC** form is an **ambition ("cap")**, not a
-current legal status — copy must not claim it as fact.
+becomes self-sustaining. **It is not a cooperative** — do not describe it as one, or use
+ESUS / SCIC / social-and-solidarity-economy language for it. The only status to state is:
+a Caring Hope Foundation initiative.
 
 - Public framing: "a Caring Hope Foundation initiative" — a credible, transparent backing signal.
 - 🔴 Need: Caring Hope Foundation legal name, link, and the exact line/logo they want in the footer.
@@ -46,7 +47,7 @@ THE CAPTAIN COMPANY (parent) builds a spec-driven software factory and the produ
 | --- | --- |
 | **Primary goal** | **Route to products** — umbrella brand hub: establish credibility, send each visitor to the right product/action. No single hard conversion. |
 | **Audience (priority)** | ① Future crew / talent · ② Technical builders · ③ Investors / public sector. **Not** restaurateurs (that is `join.captain.food`). |
-| **Narrative** | A **mission-led cooperative** (in ambition) — builds open, spec-driven tools against extractive platforms. |
+| **Narrative** | **Mission-led** — a Caring Hope Foundation initiative building open, spec-driven tools against extractive platforms. (Not a cooperative.) |
 | **Language** | **Bilingual FR + EN** (toggle). |
 
 **Implication:** hero + primary CTA speak to crew/builders ("come build with us / see how we
@@ -106,7 +107,7 @@ Legend: ✅ = resolved / proposed default · 🔴 = still need from product owne
   static GitHub Pages — but apply **THE CAPTAIN COMPANY's own** palette + typography above (not Captain.Food's navy).
 - ✅ **Scope:** one-page bilingual landing now; minimal legal pages once entity facts exist.
 - ✅ **Dark mode:** first-class (brand guide provides light/dark). Uses reversed logo on `#000000`.
-- ✅ **Structure:** hero (mission one-liner + primary CTA) → "how we build" → **product cards** (Food / engine / studio) → mission / cooperative-in-ambition + Caring Hope Foundation backing → CTAs per audience → footer.
+- ✅ **Structure:** hero (mission one-liner + primary CTA) → "how we build" → **product cards** (Food / engine / studio) → mission + Caring Hope Foundation backing → CTAs per audience → footer.
 
 ### B. Product routing cards (core of the umbrella hub)
 For each of Captain.Food, captain-engine, captain-studio:
@@ -121,13 +122,11 @@ For each of Captain.Food, captain-engine, captain-studio:
 🔴 Approve / edit — drafts updated for the Foundation status:
 - **EN:** "THE CAPTAIN COMPANY is a Caring Hope Foundation initiative building open, spec-driven software
   that gives independents back control from extractive platforms — starting with Captain.Food, 0%
-  commission food ordering for local restaurants. Everything is open source; the cap is to become a
-  cooperative of the social & solidarity economy once it sustains itself."
+  commission food ordering for local restaurants. Everything we make is open source and built to last."
 - **FR:** "THE CAPTAIN COMPANY est une initiative de la Caring Hope Foundation qui construit des logiciels
   ouverts, pilotés par la spécification, rendant aux indépendants le contrôle repris par les plateformes
   extractives — à commencer par Captain.Food, la commande en ligne à 0 % de commission pour les
-  restaurants locaux. Tout est open source ; le cap est de devenir une coopérative de l'économie sociale
-  et solidaire une fois l'autonomie atteinte."
+  restaurants locaux. Tout ce que nous faisons est open source et conçu pour durer."
 
 ### D. Conversion actions / contact channels (🔴 real values — won't invent)
 - **Crew/talent:** email (`hello@` / `jobs@thecaptaincompany.com`?) or page? any open roles?
@@ -150,4 +149,5 @@ For each of Captain.Food, captain-engine, captain-studio:
 - 2026-07-23 — Round 1 strategy locked (goal / audience / narrative / language).
 - 2026-07-23 — Brand name = **THE CAPTAIN COMPANY** (display, all-caps wordmark); `TheCaptainCompany` = GitHub handle only.
 - 2026-07-23 — Brand system locked from the brand guide (palette black+gold, Apparat+Montserrat, components, dark mode, logo usage). Sheets saved to `docs/assets/brand/`.
-- 2026-07-23 — Status clarified: THE CAPTAIN COMPANY is a **Caring Hope Foundation initiative** (not yet incorporated); cooperative form is an ambition. Copy must reflect this.
+- 2026-07-23 — Status clarified: THE CAPTAIN COMPANY is a **Caring Hope Foundation initiative** (not yet incorporated). Copy must reflect this.
+- 2026-07-23 — Correction: **not a cooperative.** Removed all cooperative / ESUS / SCIC / SSE framing from the positioning and mission copy.
